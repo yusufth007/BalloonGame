@@ -6,8 +6,8 @@ function clickScreen(){
     globalThis=1;
     var time = 60;//for sec
     
- let genelTime = setInterval(deneme,1000);//her 1 sn de bir okuyor.
-    function deneme(){
+ let genelTime = setInterval(timeFun,1000);//her 1 sn de bir okuyor.
+    function timeFun(){
         if(time<=0){
        clearInterval(genelTime);
        isend=true;
